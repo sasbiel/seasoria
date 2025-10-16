@@ -1,0 +1,269 @@
+body {
+    font-family: 'Poppins';
+    background: url(bg.png) no-repeat center;
+    background-size: cover;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px 25px 18px 25px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    display: block;
+    gap: 10px;
+}
+
+.brand {
+    display: flex;
+    align-items: flex-start; 
+    white-space: wrap;
+    padding: 6px 6px;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.nav {
+    background: linear-gradient(180deg,#73bbfe 0%, #6ebeff 0%);
+    border-radius: 12px;
+    position: fixed;
+    right: 15px;
+    display: flex;
+    gap: 15px;
+    padding: 6px;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 600;
+}
+
+.nav a {
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a.cta {
+    color: #fff;
+}
+
+.nav a:hover:not(.cta) {
+    color: #ff7a59  ;
+    transition: 0.3s;
+}
+
+.cta {
+    background: linear-gradient(135deg, #ff7a59, #ff9966);
+    color: white;
+    padding: 8px 18px;
+    border-radius: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(255, 122, 89, 0.3);
+}
+
+.cta:hover{
+    background: rgb(160, 160, 160);
+    box-shadow: 0 4px 10px #73bbfe;
+    transform: translateY(-2px);
+}
+
+/* homme section */
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(180deg,#9fd1ff 0%, #dcefff 40%);
+    width: 1000px;
+    align-items: center;
+    border-radius: 20px;
+    padding: 27px;
+    margin: 20px auto;
+}
+
+.homecont {
+    gap: 30px;
+    align-items: center;
+}
+
+.homecont h1 {
+    font-size: 28px;
+    color:#06304d; 
+    margin: 15px 20px 20px 25px;
+}
+
+.homecont p {
+    color: #06304d;
+    margin: 20px 30px 20px 25px;
+    font-size: 14px;
+}
+
+.homecont a {
+    display: flex;
+    background: linear-gradient(100deg,#519545,#7FC960) ;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 6px 16px;
+    color: white;
+    font-weight: 600;
+    margin: 28px 10px 0 25px; 
+    width: 108px;
+    align-items: center;
+}
+
+.home img {
+    object-fit:cover;
+    height:320px;  
+    align-items: center;
+}
+
+/* timeline section */
+
+/* .timeline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 30px;
+    margin: 30px auto;
+} */
+
+.timeline{
+    width: 102.2%;
+    margin-left: -20px;
+    padding-top: 40px;
+}
+
+/* .topic {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(120deg, #ff7a59, #ff9966);
+    color: white;
+    flex: 0 0 280px;
+    border-radius: 12px;
+    padding: 20px 32px;
+    max-width: 350px;
+    min-width: 240px;
+    max-height: 40px;
+} */
+
+/* .topic:hover {
+    box-shadow: 0 4px 10px #ff9378;
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+} */
+
+/* .bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-weight: 700;
+    font-size: 20px;
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    background:linear-gradient(180deg,#ffaa79,#ffa67a);
+    margin-right: 14px; 
+} */
+
+/* card materi */
+.iklim {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 1050px;
+    align-items: stretch;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: row-reverse;
+    background: linear-gradient(180deg,#9fd1ff 0%, #dcefff 40%);
+    box-shadow: 0 8px 30px rgba(20,45,80,0.06);
+    border-radius: 16px;
+    max-height: 150px;
+    flex: 1 1 300px;
+    padding: 20px;
+    align-items: center;
+}
+
+.card:hover {
+    box-shadow: 0 4px 10px rgba(89, 95, 255, 0.4);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+.card img {
+    height: 130px;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+.cardcont {
+    display: flex;
+    flex-direction: column;
+    color: #06304d;
+}
+
+.cardcont h3 {
+    margin: 0 0 6px 0;
+}
+
+.cardcont p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.Dunia-Musim {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Dunia-Musim img {
+    width: auto;
+    height: 40px;
+    margin: 30px 0px 0px 95px;
+}
+
+.Dunia-Musim h1 {
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 35px;
+}
+
+.panas {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    background: linear-gradient(180deg,#9fd1ff 0%, #dcefff 40%);
+    border-radius: 12px;
+    width: 250px;
+    align-items: center;
+}
+
+.panas img {
+    height: 180px;
+    width: auto;
+    margin: 20px auto;
+}
+
+.panas h1{
+    
+}
+

@@ -230,35 +230,66 @@ header {
     line-height: 1.5;
 }
 
-.Dunia-Musim {
+.headline {
     display: flex;
-    flex-wrap: wrap;
 }
 
-.Dunia-Musim img {
+.headline img {
     width: auto;
     height: 40px;
     margin: 30px 0px 0px 95px;
 }
 
-.Dunia-Musim h1 {
+.headline h1 {
     font-size: 20px;
     padding-left: 20px;
     margin-top: 35px;
+    color: #06304d;
 }
 
-.panas {
+.hl {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 30px 20px 200px;
+    gap: 100px;
+}
+
+.hl2 {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 30px 20px 200px;
+    gap: 300px;
+}
+
+.cardflip {
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
-    background: linear-gradient(180deg,#9fd1ff 0%, #dcefff 40%);
+    background: linear-gradient(180deg,#F7CA68 0%, #E48C6B 40%);
+    color: white;
     border-radius: 12px;
-    width: 250px;
+    width: 220px;
     align-items: center;
 }
 
-.panas img {
+.cardflip h1 {
+    font-size: 20px;
+    font-weight: 20px;
+    margin: 0px auto;
+}
+
+.cardflip h3 {
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.cardflip img {
     height: 180px;
     width: auto;
     margin: 20px auto;
+}
+
+.vl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

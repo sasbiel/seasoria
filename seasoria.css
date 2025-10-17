@@ -4,6 +4,9 @@ body {
     background-size: cover;
     z-index: 0;
     overflow-x: hidden;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -45,6 +48,7 @@ header {
     align-items: center;
     justify-content: flex-end;
     font-weight: 600;
+    z-index: 100;
 }
 
 .nav a {
@@ -122,6 +126,12 @@ header {
     margin: 28px 10px 0 25px; 
     width: 108px;
     align-items: center;
+}
+
+.homecont a:hover{
+    background: rgb(160, 160, 160);
+    box-shadow: 0 4px 10px #73bbfe;
+    transform: translateY(-2px);
 }
 
 .home img {
@@ -250,8 +260,8 @@ header {
 .hl {
     display: flex;
     flex-direction: row;
-    margin: 20px 30px 20px 200px;
-    gap: 100px;
+    margin: 40px 70px 20px 180px;
+    gap: 120px;
 }
 
 .cardflip {
@@ -262,6 +272,12 @@ header {
     border-radius: 12px;
     width: 220px;
     align-items: center;
+}
+
+.cardflip:hover {
+    box-shadow: 0 2px 5px #fd653f;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
 }
 
 .cardflip h1 {
@@ -287,11 +303,16 @@ header {
     align-items: center;
 }
 
+.vl img:hover {
+    transform: translateY(-20px);
+    transition: all 0.3s ease;
+}
+
 .hl2 {
     display: flex;
     flex-direction: row;
     margin: 20px 30px 20px 200px;
-    gap: 300px;
+    gap: 350px;
 }
 
 .hl3 {
@@ -301,7 +322,7 @@ header {
 }
 
 .vl2 {
-    margin-left: 95px;
+    margin-left: 150px;
     width: 367px;
     
 }
@@ -315,6 +336,11 @@ header {
 .vl3 img {
     height: 120px;
     width: auto;
+}
+
+.vl3 img:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
 }
 
 .tab img {
@@ -348,6 +374,12 @@ header {
     text-align: center;
 }
 
+.ytcont h3:hover{
+    background: rgb(160, 160, 160);
+    box-shadow: 0 4px 10px #73bbfe;
+    transform: translateY(-2px);
+}
+
 .hl4 {
     display: flex;
     flex-direction: column;
@@ -361,7 +393,7 @@ header {
 }
 
 .tentang img {
-    width: 700px;
+    width: 600px;
     margin-left: 100px;
 }
 
@@ -381,10 +413,11 @@ header {
     color: #06304d;
     width: 500px;
     font-size: 14px;
+    margin-right: 100px;
 }
 
 .boxref {
-    background: rgb(194, 194, 194);
+    background: rgb(226, 226, 226);
     border-radius: 30px;
     width: 1000px;
     height: 215px;
@@ -402,4 +435,114 @@ header {
     text-align: center;
     margin-top: 150px;
     float: right;
+}
+
+.boxref h3:hover{
+    background: rgb(160, 160, 160);
+    box-shadow: 0 4px 10px #73bbfe;
+    transform: translateY(-2px);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 50px 50px 0 0;
+    background: linear-gradient(180deg,#F7CA68 0%, #E48C6B 40%);
+    margin-top: 50px;
+}
+
+.footleft {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 120px 50px 60px;
+}
+
+.footleft p {
+    font-size: 14px;
+    color: white;
+    width: 550px;
+}
+
+.brandfoot {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    color: white;
+}
+
+.brandfoot img {
+    height: 60px;
+    width: auto;
+}
+
+.boxmail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: whitesmoke;
+    border-radius: 30px;
+    height: 40px;
+    width: 400px;
+    gap: 190px;
+    padding: 3px;
+    margin-top: 20px;
+}
+
+.boxmail h6 {
+    font-size: 12px;
+    margin-left: 20px;
+    opacity: 50%;
+}
+
+.boxmail h5 {
+    background: linear-gradient(180deg,#F7CA68 0%, #E48C6B 40%);
+    border-radius: 12px;
+    padding: 5px;
+    font-size: 13px;
+    color: white;
+}
+
+.boxmail h5:hover{
+    background: rgb(160, 160, 160);
+    box-shadow: 0 4px 10px #73bbfe;
+    transform: translateY(-2px);
+}
+
+.footright {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.footright h1 {
+    font-size: 14px;
+    color: white;
+    margin-top: 40px;
+}
+
+.footright p {
+    color: white;
+    width: 450px;
+    font-size: 14px;
+}
+
+.footright span {
+    color: white;
+    width: 450px;
+    font-size: 14px;
+    margin-top: 90px;
+    text-align: right;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.contact img {
+    height: 47px;
+    width: auto;
 }

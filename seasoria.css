@@ -1,3 +1,7 @@
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins';
     background: url(bg.png) no-repeat center;
@@ -49,6 +53,7 @@ header {
     justify-content: flex-end;
     font-weight: 600;
     z-index: 100;
+    scroll-behavior: smooth;
 }
 
 .nav a {
@@ -85,7 +90,6 @@ header {
     transform: translateY(-2px);
 }
 
-/* homme section */
 .home {
     display: flex;
     flex-direction: row;
@@ -98,24 +102,24 @@ header {
     margin: 20px auto;
 }
 
-.homecont {
+.home-contain {
     gap: 30px;
     align-items: center;
 }
 
-.homecont h1 {
+.home-contain h1 {
     font-size: 28px;
     color:#06304d; 
     margin: 15px 20px 20px 25px;
 }
 
-.homecont p {
+.home-contain p {
     color: #06304d;
     margin: 20px 30px 20px 25px;
     font-size: 14px;
 }
 
-.homecont a {
+.home-contain a {
     display: flex;
     background: linear-gradient(100deg,#519545,#7FC960) ;
     text-decoration: none;
@@ -128,7 +132,7 @@ header {
     align-items: center;
 }
 
-.homecont a:hover{
+.home-contain a:hover{
     background: rgb(160, 160, 160);
     box-shadow: 0 4px 10px #73bbfe;
     transform: translateY(-2px);
@@ -190,7 +194,6 @@ header {
     margin-right: 14px; 
 } */
 
-/* card materi */
 .iklim {
     display: flex;
     flex-wrap: wrap;
@@ -225,17 +228,17 @@ header {
     object-fit: contain;
 }
 
-.cardcont {
+.card-contain {
     display: flex;
     flex-direction: column;
     color: #06304d;
 }
 
-.cardcont h3 {
+.card-contain h3 {
     margin: 0 0 6px 0;
 }
 
-.cardcont p {
+.card-contain p {
     font-size: 14px;
     line-height: 1.5;
 }
@@ -264,7 +267,7 @@ header {
     gap: 120px;
 }
 
-.cardflip {
+.card-flip {
     display: flex;
     flex-direction: column;
     background: linear-gradient(180deg,#F7CA68 0%, #E48C6B 40%);
@@ -274,24 +277,24 @@ header {
     align-items: center;
 }
 
-.cardflip:hover {
+.card-flip:hover {
     box-shadow: 0 2px 5px #fd653f;
     transform: scale(1.2);
     transition: all 0.3s ease;
 }
 
-.cardflip h1 {
+.card-flip h1 {
     font-size: 20px;
     font-weight: 20px;
     margin: 0px auto;
 }
 
-.cardflip h3 {
+.card-flip h3 {
     font-size: 14px;
     margin-top: 3px;
 }
 
-.cardflip img {
+.card-flip img {
     height: 180px;
     width: auto;
     margin: 20px auto;
@@ -349,7 +352,7 @@ header {
     margin-left: 50px;
 }
 
-.ytlayout {
+.yt-layout {
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -357,14 +360,14 @@ header {
     margin-right: 70px;
 }
 
-.ytcont {
+.yt-contain {
     display: flex;
     flex-direction: column;
     margin-left: 154px;
     width: 300px;
 }
 
-.ytcont h3 {
+.yt-contain h3 {
     background: #E48C6B;
     color: white;
     padding: 8px 10px;
@@ -374,7 +377,7 @@ header {
     text-align: center;
 }
 
-.ytcont h3:hover{
+.yt-contain h3:hover{
     background: rgb(160, 160, 160);
     box-shadow: 0 4px 10px #73bbfe;
     transform: translateY(-2px);
@@ -443,7 +446,7 @@ header {
     transform: translateY(-2px);
 }
 
-.footer {
+footer {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -452,19 +455,19 @@ header {
     margin-top: 50px;
 }
 
-.footleft {
+.foot-left {
     display: flex;
     flex-direction: column;
     margin: 30px 120px 50px 60px;
 }
 
-.footleft p {
+.foot-left p {
     font-size: 14px;
     color: white;
     width: 550px;
 }
 
-.brandfoot {
+.brand-foot {
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -472,7 +475,7 @@ header {
     color: white;
 }
 
-.brandfoot img {
+.brand-foot img {
     height: 60px;
     width: auto;
 }
@@ -510,25 +513,25 @@ header {
     transform: translateY(-2px);
 }
 
-.footright {
+.foot-right {
     display: flex;
     flex-direction: column;
     margin: 30px;
 }
 
-.footright h1 {
+.foot-right h1 {
     font-size: 14px;
     color: white;
     margin-top: 40px;
 }
 
-.footright p {
+.foot-right p {
     color: white;
     width: 450px;
     font-size: 14px;
 }
 
-.footright span {
+.foot-right span {
     color: white;
     width: 450px;
     font-size: 14px;
